@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.image {
+    background-color: white;
+    min-height: 200px;
+}
+
+.container-fluid {
+    margin-top: 60px;
+}
+
+
+
+body > div > div > nav > div.sidebar-sticky > ul > li > a {
+    color: white;
+}
+
+body > div > div > nav > div.sidebar-sticky > ul > li > a.active {
+    color: rgb(51, 121, 250) !important;
+}
+
+.h2 {
+    color: white;
+}
+.text-muted {
+    color: rgb(255, 78, 78) !important;
+}
+
+.form{
+    text-align: center;
+}
+
+div.form-group.row > div > label {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}

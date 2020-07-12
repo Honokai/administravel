@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/painel', function() {
+    return view('painel');
+})->name('painel');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
